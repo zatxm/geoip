@@ -4,6 +4,7 @@ set -Eeuo pipefail
 export LC_ALL=C
 ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
 export ROOT
+mkdir -p "$ROOT/.cache"
 TOOLS="$ROOT/.cache/tools"
 export PATH="$TOOLS:$PATH"
 
