@@ -1,0 +1,8 @@
+{
+  "geoip": {"repository": "Loyalsoldier/geoip", "ref": "release", "file": "geoip.dat"},
+  "geosite": {"repository": "Loyalsoldier/v2ray-rules-dat", "ref": "release", "file": "geosite.dat"},
+  "asn": {"repository": "Loyalsoldier/geoip", "ref": "release", "file": "GeoLite2-ASN.mmdb"},
+  "lite_geoip": ["cn", "private", "hk", "mo", "tw", "us", "jp", "sg", "cloudflare", "google", "telegram"],
+  "lite_geosite": ["cn", "private", "geolocation-!cn", "category-ads-all", "apple", "microsoft", "google", "github", "telegram", "youtube", "netflix", "openai"],
+  "asn_rules": [132203, 13335, 15169, 32934, 16509, 8075]
+}

@@ -1,0 +1,29 @@
+{
+  "meta-rules-converter": {
+    "module": "github.com/metacubex/meta-rules-converter@7dea27841a3579a633189830c98c08a0434e8b79"
+  },
+  "geoview": {
+    "version": "0.2.9",
+    "url": "https://github.com/snowie2000/geoview/releases/download/0.2.9/geoview-linux-amd64",
+    "sha256": "2e9defb2c9e54c6c667eb5e91dad3fb2544dec552a4f3a63114595364ef29692",
+    "member": ""
+  },
+  "geo": {
+    "version": "v1.1",
+    "url": "https://github.com/MetaCubeX/geo/releases/download/v1.1/geo-linux-amd64",
+    "sha256": "e350af51ac4c9a117f6ab08168f057bb3f7da088ca983b921ec088a498de4e47",
+    "member": ""
+  },
+  "sing-box": {
+    "version": "1.14.4",
+    "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz",
+    "sha256": "699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968",
+    "member": "sing-box-1.14.4-linux-amd64/sing-box"
+  },
+  "mmdbinspect": {
+    "version": "2.0.0",
+    "url": "https://github.com/maxmind/mmdbinspect/releases/download/v2.0.0/mmdbinspect_2.0.0_linux_amd64.tar.gz",
+    "sha256": "ed27fd472b7dc18087268f815023fe931d29cb7bdfd080de7f2e829abd6d7770",
+    "member": "mmdbinspect_2.0.0_linux_amd64/mmdbinspect"
+  }
+}
