@@ -2,7 +2,7 @@ name: Build and release
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Asia/Shanghai 10:00
+    - cron: '7 2 * * *' # Asia/Shanghai 10:07; avoid GitHub's top-of-hour schedule congestion
   workflow_dispatch:
   push:
     branches: [main, master]
